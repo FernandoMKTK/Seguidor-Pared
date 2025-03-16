@@ -1,0 +1,10 @@
+<launch>
+    <!-- Nodo del servidor de servicios find_wall -->
+    <node name="find_wall_server" pkg="wall_follower" type="find_wall_server" output="screen" clear_params="true"/>
+
+    <!-- Nodo del cliente de servicio que sigue la pared -->
+    <node name="wall_follower_client" pkg="wall_follower" type="wall_follower_client" output="screen" clear_params="true"/>
+
+    <!-- Iniciar el servidor de acciones -->
+    <node name="record_odom_server" pkg="wall_follower" type="record_odom_server" output="screen" clear_params="true"/>
+</launch>

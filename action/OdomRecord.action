@@ -1,0 +1,10 @@
+# Definir la solicitud (objetivo del cliente)
+---
+
+# Definir el resultado (resultado final)
+geometry_msgs/Point32[] list_of_odoms
+float32 current_total
+
+---
+# Definir la retroalimentación (feedback opcional)
+float32 current_total

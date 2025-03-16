@@ -1,0 +1,4 @@
+<launch>
+    <!-- Inicia el nodo de seguimiento de pared -->
+    <node name="wall_follower" pkg="wall_follower" type="wall_follower" output="screen"/>
+</launch>
