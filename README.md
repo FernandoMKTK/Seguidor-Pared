@@ -1,4 +1,4 @@
-# Seguidor-Pared
+# Seguidor de Pared
 Proyecto de ROS para un robot seguidor de paredes
 
 Este proyecto consiste en el desarrollo de un **robot seguidor de pared** utilizando **ROS (Robot Operating System)**. Implementa un nodo que utiliza sensores **LIDAR** para detectar la pared más cercana y seguirla a una distancia óptima.
@@ -16,9 +16,8 @@ Este proyecto consiste en el desarrollo de un **robot seguidor de pared** utiliz
 
 ## 📷 Demostración
 
-_Añadir imágenes o GIFs del robot en acción._
+https://youtu.be/a9K8aY8_ts0
 
----
 
 ## ⚙️ Tecnologías Utilizadas
 
